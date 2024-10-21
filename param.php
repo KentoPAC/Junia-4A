@@ -1,7 +1,7 @@
 <?php
 	$base = 'site';
-	$pass = 'App12345/';
-	$user = 'app';
+	$pass = 'Kento1234!';
+	$user = 'toto';
 	$host = 'localhost';
 
 	//$base = 'qdeclercq';
