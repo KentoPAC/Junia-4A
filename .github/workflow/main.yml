@@ -20,7 +20,6 @@ jobs:
 
 build:
     runs-on: ubuntu-latest  # Utiliser une machine Ubuntu pour builder
-    needs: lint             # Ce job ne se lance qu'après le job 'lint'
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
