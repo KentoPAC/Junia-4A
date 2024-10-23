@@ -27,6 +27,6 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/nginx-junia:latest .
+          docker build -t $nginx:latest -f ../../Dockerfile .
 
 
