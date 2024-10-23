@@ -19,7 +19,7 @@ jobs:
           done
 
 
-build:
+  build:
     runs-on: self-hosted
     steps:
       - name: Checkout code
